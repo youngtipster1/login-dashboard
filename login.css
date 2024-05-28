@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+  margin: 0;
+}
+
+.centered-form {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.hidden {
+  display: none;
+}
+
+.alert-container {
+  max-width: 300px; /* Reduced width */
+  margin: 0 auto 20px auto; /* Center align */
+}
